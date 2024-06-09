@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    margin: auto;
+}
+
+
+header {
+    top: 0;
+    position: sticky;
+    background-color: white;
+    
+    
+}
+
+
+.menu {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+.menu a:hover{
+    color: white;
+    border: 5px solid ;
+    border-radius: 20px;
+    background-color: black;
+}
+.menu ul{
+
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    align-items: center;
+    font-size: 10pt;
+    height: 100%;
+}
+.menu li a{
+    padding: 10px ;
+    margin: 40px;
+    background-color: black;
+    text-decoration: none;
+    border: 1px solid;
+    color:white;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tablas{
+    
+    display: flex;
+    width: 75%;
+    margin-top: 55px;
+}
+
+table{
+    border-collapse: collapse;
+    padding: 20px;
+    
+    
+}
+
+td {
+    border: 3px solid black;
+    padding: 5px;
+}
+th{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(240, 255, 254);
+    
+}
+#titulo th{
+    background-color: blanchedalmond;
+}
+th{
+    background-color: brown;
+}
+.vacio{
+    background-color: brown;
+}
+.fondo{
+    background-color: chocolate;
+}
+#color th{
+    background-color: #8C0D17;
+}
+#tablas{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.tabla1{
+    font-size: 13px;
+    margin-bottom: 30px;
+    border: none;
+    text-align: center;
+}
+.tabla2{
+    font-size: 13px;
+    border: none;
+    text-align: center;
+    
+}
+
+section {
+    margin: auto;
+    display: flex;
+
+
+}
+section .formulario{
+    padding: 20px;
+    margin: 150px;
+}
+
+
+.formulario{
+    font-size: 17px;
+    width: 45%;
+    border: 1px solid black;
+    padding: 20px;
+    margin:  auto;
+    box-sizing: border-box;
+    background-color: wheat;
+    border-radius: 5px;
+}
+.botones{
+    text-align: center;
+}
+.botones input{
+    margin: 10px;
+    padding: 5px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: brown;
+    margin-top: 100px;
+    color: white;
+}
+img{
+    padding: 20px;
+}
+.imagen ul{
+    position: relative;
+    right: 40px;
+}
+.imagen li{
+    list-style-type: none;
+    color: white;
+    margin-bottom: 10px;
+}
+.imagen a{
+    text-decoration: none;
+    color: white;
+}
+.imagen a img{
+    padding-top: 45px;
+}
+#column1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#column2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+img{
+    float: left;
+}
+
+.parrafos{
+    width: 75%;
+    margin: auto;
+    column-count: 4;
+    column-rule: 1px solid black;
+    column-rule-style: dashed;
+    column-rule-width: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+

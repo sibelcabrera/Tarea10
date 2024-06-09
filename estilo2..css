@@ -1,0 +1,129 @@
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+main{
+    width: 99%;
+    margin: auto;
+    height: 2500px;
+}
+.menu {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+.menu a:hover{
+    color: white;
+    border: 5px solid ;
+    border-radius: 20px;
+    background-color: black;
+}
+.menu li a{
+    padding: 10px ;
+    margin: 40px;
+    background-color: black;
+    text-decoration: none;
+    border: 1px solid;
+    color:white;
+    border-radius: 5px;
+}
+.menu ul{
+
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    align-items: center;
+    font-size: 10pt;
+    height: 100%;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+h2{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8C0D17;
+}
+section{
+    display: flex;
+    flex-direction: row;
+}
+.dos{
+    width: 300px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+.boton{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #8C0D17;
+    margin-top: 100px;
+    color: white;
+
+}
+img{
+    padding: 20px;
+}
+.imagen ul{
+    position: relative;
+    right: 40px;
+}
+.imagen li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: white;
+}
+.imagen a{
+    text-decoration: none;
+    color: white;
+}
+
+#column1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#column2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#column3 ul{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style-type: none;
+    color: white;
+}
+
+
+img{
+    float: left;
+}
+.parrafos{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
